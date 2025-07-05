@@ -4,11 +4,19 @@
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tsparticles/plugin-sounds": "^3.8.1",
+    "@tsparticles/preset-confetti": "^3.2.0",
+    "@tsparticles/preset-fireworks": "^3.2.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "parcel": "latest"
   }
 }
